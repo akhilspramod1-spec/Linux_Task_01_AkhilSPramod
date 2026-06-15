@@ -33,7 +33,8 @@ Network Adapter	NAT + Host-Only (dual adapter)
 
 ---
 
-Part B: Basic Navigation Commands
+### Part B: Basic Navigation Commands
+
 All commands executed in Kali Linux terminal (bash shell).
 `pwd` — Print Working Directory
 ```bash
@@ -42,6 +43,7 @@ pwd
 Purpose: Shows the absolute path of the current directory you are in.  
 Output Example: `/home/kali`
 
+![pwd](pwd.png)
 
 ---
 `ls` — List Directory Contents
@@ -67,6 +69,10 @@ drwxr-xr-x  3 root root 4096 Jun  1 09:00 ..
 -rw-r--r--  1 kali kali 3526 Jun  1 09:00 .bashrc
 drwxr-xr-x  2 kali kali 4096 Jun 10 10:00 Desktop
 ```
+
+
+![ls-la](ls-la.png)
+
 ---
 `cd` — Change Directory
 ```bash
@@ -76,6 +82,7 @@ cd ..        # go one level up
 cd ~         # go to home directory
 ```
 Purpose: Navigates between directories. Most fundamental Linux navigation command.
+
 ---
 `clear` — Clear Terminal Screen
 ```bash
@@ -113,9 +120,12 @@ Command	Purpose
 `history`	Show list of past commands
 `whoami`	Show current logged-in username
 `hostname`	Show machine's network name
-> 📸 Screenshots: See `/screenshots/part_b/`
+
+![whoami](whoami.png)
+
 ---
-Part C: Directory Management
+
+### Part C: Directory Management
 Directory Structure Created
 ```
 CyberSecurity_Lab/
@@ -147,7 +157,8 @@ Command	Purpose
 `mkdir -p path/to/dir`	Create nested directories in one go
 `cd <dir>`	Enter a directory
 `tree <dir>`	Display folder structure visually
-> 📸 Screenshots: See `/screenshots/part_c/`
+
+
 ---
 Part D: File Management
 Files Created Inside Each Folder
