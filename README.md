@@ -158,9 +158,10 @@ Command	Purpose
 `cd <dir>`	Enter a directory
 `tree <dir>`	Display folder structure visually
 
+![directories](directories.png)
 
 ---
-Part D: File Management
+### Part D: File Management
 Files Created Inside Each Folder
 ```bash
 # Navigate into folder
@@ -213,7 +214,8 @@ Command	Syntax	Purpose
 `mv`	`mv src dst`	Move or rename file
 `rm`	`rm file.txt`	Delete file
 `rm -r`	`rm -r folder/`	Delete directory recursively
-> 📸 Screenshots: See `/screenshots/part_d/`
+
+
 ---
 Part E: System Information Collection
 Commands Executed
