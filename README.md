@@ -4,10 +4,15 @@ Name: Akhil
 ---
 ### Table of Contents
 Part A: Linux Installation & Verification
+
 Part B: Basic Navigation Commands
+
 Part C: Directory Management
+
 Part D: File Management
+
 Part E: System Information Collection
+
 Part F: Linux Research Activity
 ---
 ### Part A: Linux Installation & Verification
@@ -20,8 +25,14 @@ OS Installed	Kali Linux 2024.x (64-bit)
 RAM Allocated	4 GB
 Disk Space	40 GB
 Network Adapter	NAT + Host-Only (dual adapter)
-> 📸 Screenshots: See `/screenshots/` folder — `desktop.png`, `terminal.png`, `sysinfo.png`
+![kali](kali%20intro%201.png)
+
+![kali desktop](kali%20intro%202.png)
+
+![kali terminal](kali%20terminal%20.png)
+
 ---
+
 Part B: Basic Navigation Commands
 All commands executed in Kali Linux terminal (bash shell).
 `pwd` — Print Working Directory
@@ -30,6 +41,8 @@ pwd
 ```
 Purpose: Shows the absolute path of the current directory you are in.  
 Output Example: `/home/kali`
+
+
 ---
 `ls` — List Directory Contents
 ```bash
