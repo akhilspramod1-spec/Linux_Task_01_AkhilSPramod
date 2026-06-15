@@ -215,9 +215,11 @@ Command	Syntax	Purpose
 `rm`	`rm file.txt`	Delete file
 `rm -r`	`rm -r folder/`	Delete directory recursively
 
+![touch](touch.png)
 
 ---
-Part E: System Information Collection
+
+### Part E: System Information Collection
 Commands Executed
 ```bash
 uname -a
@@ -242,9 +244,12 @@ Username	kali
 Current Directory	/home/kali
 Current Date & Time	Mon Jun 10 10:30:00 IST 2026
 System Uptime	1 hour 23 minutes
-> 📸 Screenshots: See `/screenshots/part_e/`
+
+![sysinfo](whoami.png)
+
 ---
-Part F: Linux Research Activity
+
+### Part F: Linux Research Activity
 1. What is Linux?
 Linux is a free and open-source operating system kernel created by Linus Torvalds in 1991. It is based on the Unix operating system design. The Linux kernel manages hardware resources (CPU, RAM, storage) and allows software to communicate with hardware.
 Linux itself is just the kernel. When combined with tools, utilities, and a package manager, it forms a complete Linux Distribution (distro) like Ubuntu, Kali Linux, or Fedora.
